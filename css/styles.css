@@ -119,7 +119,6 @@ p {
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
   color: var(--hover-color);
-
 }
 .nav-link::after {
   content: "";
@@ -688,7 +687,7 @@ p {
   opacity: 0;
   pointer-events: none;
 }
-.is-hidden{
+.is-hidden {
   visibility: hidden;
 }
 .modal-close:hover {
@@ -728,9 +727,6 @@ p {
 }
 
 .portfolio-link:hover .portfolio-cover-text,
-.portfolio-link:focus .portfolio-cover-text 
-{
+.portfolio-link:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
-
-
